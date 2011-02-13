@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+%feed{:xmlns=>"http://www.w3.org/2005/Atom"}
+  %title= "Twiddl"
+  %subtitle= "collaboration for designers"
+  %link{:href=>"http://www.twiddl.com/blog/atom.xml",:rel=>"self"}
+  %link{:href=>"http://www.twiddl.com/blog/"}
+  %id= "http://www.twiddl.com/blog/"
+  %updated= atom_time
+  %author
+    %name= "twiddlguy"
+    %email= "info@twiddl.com"
+  
+  - posts[0...10].each do |post|
+    %entry
+      %title= post.title
+      %link{:href=>"http://www.twiddl.com/blog/"+post.file}
+      %id= "http://www.twiddl.com/blog/"+post.file
+      %updated= atom_date(post.date)
+      %content{:type=>"html"}
+        post.content

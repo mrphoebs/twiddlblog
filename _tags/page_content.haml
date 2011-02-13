@@ -1,0 +1,21 @@
+- if(map[:posts]!=nil)
+  - map[:posts][0...5].each do |post|
+    - if post.type == "blogpost"   
+      .heading
+        %a{:href=>post.file}
+          = post.title
+      .postcontent
+        = post.content
+      .postfooter
+        .comments
+          %a{:href=>post.file}
+            comments
+- elsif(map[:post]!=nil)
+  .heading
+    %a{:href=>map[:post].file}
+      = map[:post].title
+  .postcontent
+    = map[:post].content
+  .postfooter
+    .comments
+      = tag :disqus, {:post => map[:post]}

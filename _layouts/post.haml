@@ -1,0 +1,21 @@
+!!! XML
+!!! Strict
+%html{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %head
+    %title= post.title + " - Twiddl Blog"
+    = tag :styles_include
+    = tag :scripts_include
+  %body
+    #wrapper
+      #headerwrapper
+        = tag :header
+      #container
+        #sidebar
+          = tag :navigation
+          = tag :subscribe
+        #content
+          = tag :page_content, {:post => post}
+
+
+
+      = tag :home_footer

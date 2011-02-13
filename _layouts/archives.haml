@@ -1,0 +1,16 @@
+!!! XML
+!!! Strict
+%html{:xmlns=>"http://www.w3.org/1999/xhtml"}
+  %head
+    %title Twiddl Blog
+    = tag :styles_include
+    = tag :scripts_include
+  %body
+    #wrapper
+      #headerwrapper
+        = tag :header
+      #container
+        #archivecontent
+          = tag :archive_content, {:posts => posts}
+
+

@@ -1,0 +1,8 @@
+#allposts
+  - map[:posts].each do |post|
+    -if post.type == "blogpost"
+      .heading.archiveheading
+        %a{:href=>post.file}
+          = post.title
+   
+

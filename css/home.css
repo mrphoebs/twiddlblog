@@ -1,0 +1,132 @@
+#wrapper {
+  width: 750px;
+  margin: 0 auto; }
+
+#headerwrapper {
+  width: 100%;
+  height: 300px; }
+
+#header {
+  width: 100%;
+  text-align: justify;
+  position: relative;
+  left: -10px;
+  top: 85px; }
+
+#titles {
+  float: left; }
+
+#logo {
+  float: left;
+  position: relative;
+  bottom: 25px; }
+
+#subtitle {
+  font-family: Helvetica;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: justify;
+  color: #3c3b37;
+  position: relative;
+  top: -11px; }
+
+#title {
+  font-family: Times;
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: black; }
+
+#red {
+  color: #bd0000;
+  display: inline-block;
+  width: 0px; }
+
+#content {
+  position: relative;
+  float: right; }
+  #content a {
+    text-decoration: none;
+    color: #a0a080; }
+    #content a:hover {
+      color: #3c3b37; }
+
+.heading {
+  font: 35px "UbuntuRegular", Arial, sans-serif;
+  padding-bottom: 15px; }
+
+.postcontent {
+  text-align: justify;
+  width: 600px;
+  font: 16px Arial, serif;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+  line-height: 1.6;
+  color: #3c3b37; }
+  .postcontent h2 {
+    font-size: 22px;
+    padding: 0px;
+    position: relative;
+    line-height: 22px;
+    bottom: -5px; }
+
+.postfooter {
+  width: 100%;
+  padding-bottom: 100px; }
+
+.comments {
+  font-size: 14px;
+  width: 100%;
+  text-align: right; }
+
+#sidebar {
+  width: 100px;
+  float: left;
+  padding-left: 20px;
+  height: 100%; }
+
+#navigation {
+  position: relative;
+  top: 73px;
+  border-bottom: 1px dotted #d0d0d0; }
+
+.navlinks {
+  font: 20px Arial, serif;
+  font-weight: bold;
+  padding-bottom: 10px; }
+  .navlinks a {
+    text-decoration: none;
+    color: #a0a080; }
+    .navlinks a:hover {
+      color: #3c3b37; }
+
+#subscription {
+  position: relative;
+  top: 80px;
+  left: -15px; }
+
+.subscribimg {
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+  .subscribimg:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); }
+  .subscribimg a {
+    text-decoration: none; }
+
+img {
+  border-style: none; }
+
+#archivecontent {
+  float: left;
+  padding-left: 15px; }
+  #archivecontent a {
+    text-decoration: none;
+    color: #a0a080; }
+    #archivecontent a:hover {
+      color: #3c3b37; }
+
+#allposts {
+  float: left; }
+
+.archiveheading {
+  padding-bottom: 20px; }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>Twiddl</title>
+  <subtitle>collaboration for designers</subtitle>
+  <link href='http://www.twiddl.com/blog/atom.xml' rel='self' />
+  <link href='http://www.twiddl.com/blog/' />
+  <id>http://www.twiddl.com/blog/</id>
+  <updated>2011-02-13T21:00:48Z</updated>
+  <author>
+    <name>twiddlguy</name>
+    <email>info@twiddl.com</email>
+  </author>
+  <entry>
+    <title>this is post one</title>
+    <link href='http://www.twiddl.com/blog/this_is_post_one.html' />
+    <id>http://www.twiddl.com/blog/this_is_post_one.html</id>
+    <updated>2011-02-13T00:00:00Z</updated>
+    <content type='html'>
+      post.content
+    </content>
+  </entry>
+  <entry>
+    <title>this is post one</title>
+    <link href='http://www.twiddl.com/blog/this_is_post_one.html' />
+    <id>http://www.twiddl.com/blog/this_is_post_one.html</id>
+    <updated>2011-02-13T00:00:00Z</updated>
+    <content type='html'>
+      post.content
+    </content>
+  </entry>
+  <entry>
+    <title>home</title>
+    <link href='http://www.twiddl.com/blog/home.html' />
+    <id>http://www.twiddl.com/blog/home.html</id>
+    <updated>2011-02-13T00:00:00Z</updated>
+    <content type='html'>
+      post.content
+    </content>
+  </entry>
+  <entry>
+    <title>archives</title>
+    <link href='http://www.twiddl.com/blog/archives.html' />
+    <id>http://www.twiddl.com/blog/archives.html</id>
+    <updated>2011-02-13T00:00:00Z</updated>
+    <content type='html'>
+      post.content
+    </content>
+  </entry>
+  <entry>
+    <title>this is post one</title>
+    <link href='http://www.twiddl.com/blog/this_is_post_one.html' />
+    <id>http://www.twiddl.com/blog/this_is_post_one.html</id>
+    <updated>2011-02-13T00:00:00Z</updated>
+    <content type='html'>
+      post.content
+    </content>
+  </entry>
+</feed>
